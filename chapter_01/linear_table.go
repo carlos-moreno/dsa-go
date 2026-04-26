@@ -1,11 +1,11 @@
-// Package chapter01 contém exemplos de estruturas de dados básicas.
+// Package chapter01 contém exemplos de operações em estruturas de dados lineares.
 package chapter01
 
 import "fmt"
 
 // Run executa a demonstração de uma tabela linear simples,
 // imprimindo os elementos de uma fatia (slice) de inteiros.
-func Run() {
+func RunLinearTable() {
 	// 1. Definir uma matriz unidimensional (slice) de pontuações.
 	// Em Go, slices são usados para representar sequências dinâmicas.
 	var scores = []int{90, 70, 50, 80, 60, 85}
