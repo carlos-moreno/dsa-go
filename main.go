@@ -6,4 +6,5 @@ func main() {
 	chapter01.RunLinearTable()
 	chapter01.RunAppendLinearTable()
 	chapter01.RunInsertLinearTable()
+	chapter01.RunDeleteIndexLinearTable()
 }
